@@ -1,9 +1,13 @@
-import Navbar from "./Component/Nabbar/Navbar";
+import React from "react";
+import Navbar from "./Component/Navbar/Navbar";
+import './App.css'
+import Intro from "./Component/Intro/Intro";
 
 function App() {
   return (
     <div className="App">
      <Navbar/>
+     <Intro/>
     </div>
   );
 }

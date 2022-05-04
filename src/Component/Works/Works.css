@@ -1,0 +1,10 @@
+.works{
+    padding: 0 .5rem 0 4rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 4rem;
+    
+}
+.awesome{
+    width: 60%;
+}

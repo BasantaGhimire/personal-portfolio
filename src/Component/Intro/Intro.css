@@ -27,7 +27,7 @@
 .i-name>:nth-child(3){
     color: var(--gray);
     font-weight: 100;
-    font-size: 14px;
+    font-size: 1.5rem;
     margin-top: 10px;
 }
 .i-button{
@@ -35,10 +35,6 @@
     height: 3rem;
 }
 
-
-.i-right{
-    flex: 1;
-}
 .i-icons{
     margin-top: 3rem;
     display: flex;
@@ -49,4 +45,112 @@
 }
 .i-icons>*:hover{
     cursor: pointer;
+}
+
+
+.i-right{
+    flex: 1;
+    position: relative;
+}
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+}
+.i-right>:nth-child(1){
+    transform: scale(0.45);
+    left: 40rem;
+    top: -5.5rem;
+}
+.i-right>:nth-child(2){    
+    left: 38rem;
+    transform: scale(.5);
+    top: 4rem;    
+}
+.i-right>:nth-child(3){    
+    left: -1.5rem;
+    transform: scale(0.30);
+    top: 18rem;    
+}
+.i-right>:nth-child(4){    
+    left: 11rem;
+    transform: scale(0.10);
+    top: -8.5rem;    
+}
+.i-right>:nth-child(5){    
+    left: 7rem;
+    transform: scale(0.11);
+    top: -7.5rem;    
+}
+.i-right>:nth-child(6){    
+    left: 38rem;
+    transform: scale(0.55);
+    top: 23rem;    
+}
+.i-right>:nth-child(7){    
+    left: 12rem;
+    transform: scale(0.30);
+    top: -6rem;    
+}
+.i-right>:nth-child(8){    
+    left: 5rem;
+    transform: scale(0.25);
+    top: 14.5rem;    
+}
+.i-right>:nth-child(9){    
+    left: 20.5rem;
+    transform: scale(0.35);
+    top: -6rem;    
+}
+.i-right>:nth-child(10){    
+    left: 3rem;
+    transform: scale(0.60);
+    top: 12rem;    
+}
+.i-right>:nth-child(11){    
+    left: 27rem;
+    transform: scale(0.42);
+    top: -3.5rem;    
+}
+.i-right>:nth-child(12){    
+    left: 22rem;
+    transform: scale(0.75);
+    top: 13rem;    
+}
+.i-right>:nth-child(13){    
+    left: 1rem;
+    transform: scale(0.35);
+    top: 1rem;    
+}
+.i-right>:nth-child(14){    
+    left: -35rem;
+    transform: scale(0.10);
+    top: -2.6rem;    
+}
+.i-right>:nth-child(15){    
+    left: -82.5rem;
+    transform: scale(.051);
+    top: -58rem;    
+}
+.i-right>:nth-child(16){    
+    left: 32rem;
+    transform: scale(.7);
+    top: 23rem;    
+}
+.i-right>:nth-child(17){    
+    left: 10rem;
+    transform: scale(1);
+    top: .2rem;    
+}
+
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(212px);
+    z-index: -9;
+    top: -18%;
+    left: 56%;
+    filter: blur(72px);
 }

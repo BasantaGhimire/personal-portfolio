@@ -15,20 +15,19 @@ function Navbar() {
                     <li>Home</li>
                     <li>About</li>
                     <li>Services</li>
+                    <li>Experience</li>
                     <li>Technical Skills</li>
                     <li>Education</li>
                     <li>Relevant Courses</li>
-                    <li>Experiance</li>
                     <li>Portfolio</li>
                     <li>Testimonials</li>
                 </ul>
             </div>
             <button className="button n-button">
-                Contact Me
+                Contact
             </button>
         </div>
     </div>
   )
 }
-
 export default Navbar;
